@@ -14,3 +14,9 @@ Python encoders/decoders for a variety of ciphers
 - encode.py: encodes a word using the Affine substitution cipher
 - [WIP] decode.py: decodes a word using the Affine substitution cipher
 - [WIP] known.py: extracts key pair from two plaintext/ciphertext pairs
+
+## Vigenère Cipher
+
+- encode.py: encodes a word using the Vigenère shift cipher
+- decode.py: decodes a word using the Vigenère shift cipher
+- [WIP] methods for breaking
