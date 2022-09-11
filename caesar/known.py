@@ -10,7 +10,7 @@ else:
 l1 = l1.lower()
 
 if argc < 3:
-	l2 = input("Encrypted letter: ")
+	l2 = input("Ciphertext letter: ")
 else:
 	l2 = sys.argv[2]
 
