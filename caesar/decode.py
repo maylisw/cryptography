@@ -7,7 +7,7 @@ if argc == 1:
 else:
 	word = sys.argv[1]
 
-word.lower()
+word = word.lower()
 
 if argc < 3:
 	key = int(input("Key (0-25): "))

@@ -7,7 +7,7 @@ if argc == 1:
 else:
 	word = sys.argv[1]
 
-word.lower()
+word = word.lower()
 
 for key in range(1, 26):
 	print(f"key: {key} | ", end='')

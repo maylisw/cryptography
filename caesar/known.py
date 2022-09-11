@@ -7,13 +7,13 @@ if argc == 1:
 else:
 	l1 = sys.argv[1]
 
-l1.lower()
+l1 = l1.lower()
 
 if argc < 3:
 	l2 = input("Encrypted letter: ")
 else:
 	l2 = sys.argv[2]
 
-l2.lower()
+l2 = l2.lower()
 
 print(f"key: {ord(l2) - ord(l1)}")
