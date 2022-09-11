@@ -15,6 +15,6 @@ else:
 	key = int(sys.argv[2])
 
 for c in word:
-	print(chr((ord(c) - ord('a') + key) % 26 + ord('a')), end = '')
+	print(chr((ord(c) - ord('a') + key) % 26 + ord('A')), end = '')
 
 print()
